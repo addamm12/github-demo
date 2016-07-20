@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Automation]">
+  <test name="Smoke Test cases">
+    <packages>
+      <package name="com.appium"/>
+      <package name="com.sql"/>
+    </packages>
+    <classes>
+      <class name="com.appium.Before"/>
+      <class name="com.appium.test"/>
+      <class name="com.appium.test2"/>
+      <class name="com.appium.test3"/>
+      <class name="com.sql.SQL"/>
+      <class name="com.sql.test1"/>
+    </classes>
+  </test> <!-- Smoke Test cases -->
+</suite> <!-- Failed suite [Automation] -->

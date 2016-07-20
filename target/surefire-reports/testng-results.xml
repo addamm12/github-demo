@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Automation" duration-ms="111264" started-at="2016-07-20T12:58:14Z" finished-at="2016-07-20T13:00:05Z">
+    <groups>
+    </groups>
+    <test name="Smoke Test cases" duration-ms="111264" started-at="2016-07-20T12:58:14Z" finished-at="2016-07-20T13:00:05Z">
+      <class name="com.appium.test">
+        <test-method status="PASS" signature="test()[pri:0, instance:com.appium.test@3551a94]" name="test" duration-ms="59003" started-at="2016-07-20T14:58:14Z" finished-at="2016-07-20T14:59:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.appium.test -->
+      <class name="com.appium.Before">
+        <test-method status="PASS" signature="run()[pri:0, instance:com.appium.Before@36f6e879]" name="run" is-config="true" duration-ms="100020" started-at="2016-07-20T14:56:33Z" finished-at="2016-07-20T14:58:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="connect()[pri:0, instance:com.sql.SQL@5a61f5df]" name="connect" is-config="true" duration-ms="573" started-at="2016-07-20T14:58:13Z" finished-at="2016-07-20T14:58:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connect -->
+      </class> <!-- com.appium.Before -->
+      <class name="com.appium.test2">
+        <test-method status="PASS" signature="test()[pri:0, instance:com.appium.test2@531be3c5]" name="test" duration-ms="17872" started-at="2016-07-20T14:59:13Z" finished-at="2016-07-20T14:59:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.appium.test2 -->
+      <class name="com.appium.test3">
+        <test-method status="PASS" signature="test()[pri:0, instance:com.appium.test3@52af6cff]" name="test" duration-ms="34263" started-at="2016-07-20T14:59:31Z" finished-at="2016-07-20T15:00:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.appium.test3 -->
+      <class name="com.sql.test1">
+        <test-method status="PASS" signature="Test1()[pri:0, instance:com.sql.test1@735b478]" name="Test1" duration-ms="104" started-at="2016-07-20T14:59:13Z" finished-at="2016-07-20T14:59:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+      </class> <!-- com.sql.test1 -->
+    </test> <!-- Smoke Test cases -->
+  </suite> <!-- Automation -->
+</testng-results>
