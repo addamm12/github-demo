@@ -27,7 +27,11 @@
 			<version>6.0.3</version>
 		</dependency>
 	</dependencies>
-
+	<!--
+	<profiles>
+		<profile>
+			<id>Android</id>
+			-->
 			<build>
 				<plugins>
 					<plugin>
@@ -42,5 +46,8 @@
 					</plugin>
 				</plugins>
 			</build>
-
+			<!--
+		</profile>
+	</profiles>
+	-->
 </project>
