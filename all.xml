@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Automation">
+    <test name="Smoke Test cases">
+    <packages>
+        <package name="com.appium"/>   
+        <package name="com.sql"/>    
+    </packages>
+    </test>
+</suite>
