@@ -27,9 +27,7 @@
 			<version>6.0.3</version>
 		</dependency>
 	</dependencies>
-	<profiles>
-		<profile>
-			<id>Android</id>
+
 			<build>
 				<plugins>
 					<plugin>
@@ -40,11 +38,9 @@
 							<suiteXmlFiles>
 								<suiteXmlFile>all.xml</suiteXmlFile>
 							</suiteXmlFiles>
-							<parallel>methods</parallel>
 						</configuration>
 					</plugin>
 				</plugins>
 			</build>
-		</profile>
-	</profiles>
+
 </project>
